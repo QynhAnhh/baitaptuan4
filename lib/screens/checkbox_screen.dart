@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 class CheckboxScreen extends StatefulWidget { const CheckboxScreen({super.key}); @override State<CheckboxScreen> createState() => _CState(); }
 class _CState extends State<CheckboxScreen> {
   bool _isChecked = false;

@@ -28,7 +28,7 @@ class _PasswordFieldScreenState extends State<PasswordFieldScreen> {
           children: [
             const SizedBox(height: 50),
             TextField(
-              obscureText: _isObscured, // Thuộc tính quan trọng nhất để che chữ thành dấu chấm
+              obscureText: _isObscured,
               onChanged: (value) => setState(() => _password = value),
               decoration: InputDecoration(
                 hintText: 'Nhập mật khẩu',

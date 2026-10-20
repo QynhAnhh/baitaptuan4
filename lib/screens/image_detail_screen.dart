@@ -19,14 +19,13 @@ class ImageDetailScreen extends StatelessWidget {
           padding: const EdgeInsets.all(16.0),
           child: Column(
             children: [
-              // Ảnh từ Internet
               ClipRRect(
                 borderRadius: BorderRadius.circular(12),
                 child: Image.network(
-                  'https://giaothongvantaitphcm.edu.vn/wp-content/uploads/2025/01/Logo-GTVT.png',
+                  'https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo_UTH.png',
                   height: 200,
                   width: double.infinity,
-                  fit: BoxFit.cover,
+                  fit: BoxFit.contain,
                   errorBuilder: (context, error, stackTrace) => Container(
                     height: 200, color: Colors.grey[300], child: const Center(child: Icon(Icons.image, size: 50)),
                   ),
@@ -40,7 +39,6 @@ class ImageDetailScreen extends StatelessWidget {
               ),
               const SizedBox(height: 32),
 
-              // Ảnh từ trong app (Asset)
               ClipRRect(
                 borderRadius: BorderRadius.circular(12),
                 child: Image.asset(
