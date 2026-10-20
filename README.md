@@ -1,0 +1,1 @@
+![Màn hình List](assets/images/ketqua.png)
