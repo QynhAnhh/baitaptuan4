@@ -12,7 +12,6 @@ class WelcomeScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            // Em bổ sung widget Image chứa logo vào đây sau nhé
             const Text('UI Components', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24)),
             const SizedBox(height: 16),
             const Padding(

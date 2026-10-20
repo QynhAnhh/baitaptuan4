@@ -49,7 +49,7 @@ class _TextFieldDetailScreenState extends State<TextFieldDetailScreen> {
             const SizedBox(height: 20),
             Text(
               _inputText.isEmpty ? 'Tự động cập nhật dữ liệu theo textfield' : _inputText,
-              style: const TextStyle(color: Colors.red, fontSize: 16),
+              style: const TextStyle(color: Colors.yellow, fontSize: 16),
               textAlign: TextAlign.center,
             ),
           ],
